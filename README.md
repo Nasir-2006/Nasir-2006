@@ -1,16 +1,22 @@
-## Hi there 👋
+# 👋 Hello! I'm Nasir 
+## About Me
+- 🔭 **Currently learning:** C Programming
+- 🌱 **Focusing on:** Pointers and memory management
+- 🎯 **Goal:** "I won't stop until I master C!"
 
-<!--
-**Nasir-2006/Nasir-2006** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## My C Program
+#include<stdio.h>
+void swap(int*a,int*b)
+// is function me int*a=&x or int*b=&y he
+{
+    *a = *a + *b - (*b=*a);
+}
+int main()
+{
+    int x,y;
+    printf("Enter value of A and B\n");
+    scanf("%d%d",&x,&y);
+    swap(&x,&y);
+    printf("A = %d\nB = %d",x,y);
+}
 
-Here are some ideas to get you started:
-
-
-- 🌱 I’m currently learning C
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with Ethical Hacking & also has interest in Web-development
-- 💬 Ask me about all basics of C 
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
