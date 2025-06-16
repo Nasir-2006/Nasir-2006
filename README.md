@@ -6,27 +6,25 @@
 
 ## My C Program
 #include<stdio.h>
-void prime(int num);
-int main(){
-
-    int num;
-    printf("Enter num:");
-    scanf("%d",&num);
-    prime(num);
-}
-void prime(int num)
+int main()
 {
-    int pri=0;
-   for(int i=1;i<=num;i++)
-   {
-    if(num%i==0)
+    int num,w1,w2,count=0;
+    printf("Enter Number:");
+    scanf("%d",&num);
+   w1=num;
+   w2=num;
+    while(w1>=10)
     {
-       pri++; 
+        w1=w1/10;
     }
-   }
-   if(pri==2)
-   printf("Hurrah!");
-   else
-   printf("Koi baat nahi dobara try kar le"); 
+    printf("First Digit:%d",w1);
+    num=num%10;
+    printf("\nLast Digit:%d",num);
+    while(w2!=0)
+    {
+        w2=w2/10;
+        count++;
+    }
+    printf("\nTotal Digits:%d",count);
 }
 
