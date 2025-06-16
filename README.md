@@ -6,17 +6,27 @@
 
 ## My C Program
 #include<stdio.h>
-void swap(int*a,int*b)
-// is function me int*a=&x or int*b=&y he
-{
-    *a = *a + *b - (*b=*a);
+void prime(int num);
+int main(){
+
+    int num;
+    printf("Enter num:");
+    scanf("%d",&num);
+    prime(num);
 }
-int main()
+void prime(int num)
 {
-    int x,y;
-    printf("Enter value of A and B\n");
-    scanf("%d%d",&x,&y);
-    swap(&x,&y);
-    printf("A = %d\nB = %d",x,y);
+    int pri=0;
+   for(int i=1;i<=num;i++)
+   {
+    if(num%i==0)
+    {
+       pri++; 
+    }
+   }
+   if(pri==2)
+   printf("Hurrah!");
+   else
+   printf("Koi baat nahi dobara try kar le"); 
 }
 
