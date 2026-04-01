@@ -24,12 +24,6 @@ I am a developer driven by curiosity and the challenge of solving complex proble
 
 ---
 
-### 📊 GitHub Stats
-![Nasir's Stats](https://github-readme-stats.vercel.app/api?username=Nasir-2006show_icons=true&theme=dracula)
-
-
----
-
 ### 🤝 Let's Connect
 
 I'm always open to discussing new projects or tech trends. Feel free to reach out!
